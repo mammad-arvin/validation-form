@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="weather app">
+    <meta name="description" content="Sign-in & Sign-up page">
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <meta name="author" content="mohammad hadi arvin">
     <link rel="shortcut icon" href="./image/icons8-login-80.png">
@@ -25,9 +25,9 @@
         </div>
         <p>or use your account</p>
         <input type="email" name="email for login" id="email" placeholder="Email">
-        <input type="password" name="password" name="" id="password" placeholder="Password">
+        <input type="password" name="password" id="password" placeholder="Password">
         <p class="ForgetPass">Forget your password?</p>
-        <button>SIGN IN</button>
+        <button id="sign-inSubmit">SIGN IN</button>
     </div>
     <div class="form sign-upForm">
         <h1>Sign up</h1>
@@ -40,8 +40,8 @@
         <input type="text" name="name" id="name" placeholder="Name">
         <input type="email" name="email for sign-up" id="sign-upEmail" placeholder="Email">
         <input type="password" name="sign-upPassword" id="sign-upPassword" placeholder="Password">
-        <input type="password" name="sign-upPassword" id="sign-upRenterPassword" placeholder="ReEnter Password">
-        <button>SIGN UP</button>
+        <input type="password" name="sign-upRenterPassword" id="sign-upRenterPassword" placeholder="ReEnter Password">
+        <button id="sign-upSubmit">SIGN UP</button>
     </div>
     <div class="overlayContainer">
         <div class="overlay">
@@ -58,6 +58,8 @@
         </div>
     </div>
 </main>
+<div class="popUp">
+</div>
 <script src="./main.js"></script>
 </body>
 </html>
