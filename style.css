@@ -282,7 +282,7 @@ button:hover{
 }
 @media (max-width:570px) {
     .container{
-        height: 95vh !important;
+        height: 90vh !important;
     }
     .form{
         gap: 14px;
@@ -364,5 +364,21 @@ button:hover{
     .popUpContent p{
         font: 11px/25px Montserrat;
         padding: 5px;
+    }
+}
+@media(max-height:690px){
+    .container{
+        height:700px !important;
+    }
+    .form{
+        gap: 15px;
+    }
+    .overlayContent{
+        gap: 15px;
+    } 
+}
+@media(max-height:561px){
+    .sign-upForm h1{
+        opacity: 0;
     }
 }
